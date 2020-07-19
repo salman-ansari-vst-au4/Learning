@@ -54,3 +54,29 @@ End
 * Prompt: when message
 
 11. React Refs and DOM
+* Help for input next focus
+* access one(higher) elemet from another(lower) element
+```javascript
+ref={() => {this.firstName = input}}
+onKeyUp={this.onKeyUp}
+```
+
+12. React Typechecking with *PropTypes*(prop-types)
+* Types Package to Check Types in React JS.  ReactJS Static Type Checking with Proptypes 
+
+13. React Flow Tutorial ( Static Type Checking Props, State and set Default Props )
+* TypeScrtipt (little heavy)
+```javascript
+(npm i -D flow-bin
+run flow)
+type FunctionProps = {
+  str: string
+}
+
+classComponent<FunctionProps>
+functionComponent = (str : FunctionProps) 
+```
+14. TypeScript
+*
+
+14. HOC
